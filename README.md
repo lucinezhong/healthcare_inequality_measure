@@ -28,5 +28,36 @@
 <li>State-level Gini coefficients by education level</li>
 <li>State-level Gini coefficients by income group</li>
 <li>State-level Telehealth Usage</li>
+
 <h2>Methdologies</h2>
+<ul>
+  <li>
+    <strong>Gini Coefficient</strong>:
+    Measures overall inequality in healthcare utilization across demographic groups within a given month.
+    Values range from 0 (perfect equality) to 1 (maximum inequality); higher values indicate greater disparity.
+  </li>
+
+  <li>
+    <strong>Index of Disparity (ID)</strong>:
+    Captures the average absolute deviation of group-specific utilization rates from the overall population rate,
+    normalized by the overall rate:
+    <br/>
+    <code>Index of Disparity = (∑ |R<sub>i</sub> − R<sub>overall</sub>|) / R<sub>overall</sub></code>
+  </li>
+
+  <li>
+    <strong>Population-Weighted Index of Disparity (PWID)</strong>:
+    Extends the Index of Disparity by weighting each group’s deviation by its population size:
+    <br/>
+    <code>PWID = (∑ |R<sub>i</sub> − R<sub>overall</sub>| · P<sub>i</sub>) / (R<sub>overall</sub> · P<sub>overall</sub>)</code>
+  </li>
+
+  <li>
+    <strong>Population Attributable Proportion (PAP)</strong>:
+    Estimates the proportion of overall utilization loss attributable to inequality by comparing the lowest-utilizing
+    group to the overall population:
+    <br/>
+    <code>PAP = 1 − (R<sub>lowest</sub> / R<sub>overall</sub>)</code>
+  </li>
+</ul>
 
