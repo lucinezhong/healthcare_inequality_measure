@@ -32,10 +32,3 @@
 <h2>DataSet</h2>
 <h2>Methdologies</h2>
 
-
-<h2>Contact</h2>
-<p>
-  For questions or collaboration inquiries, please contact:<br/>
-  <strong>Lu Zhong, PhD</strong><br/>
-  <a href="mailto:lucinezhong@gmail.com">lucinezhong@gmail.com</a>
-</p>
