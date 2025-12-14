@@ -22,6 +22,11 @@
 
 <hr/>
 
-<h2>DataSet</h2>
+<h2>Data</h2>
+<li>State-level Gini coefficients by age group</li>
+<li>State-level Gini coefficients by race and ethnicity</li>
+<li>State-level Gini coefficients by education level</li>
+<li>State-level Gini coefficients by income group</li>
+
 <h2>Methdologies</h2>
 
