@@ -23,11 +23,13 @@
 <hr/>
 
 <h2>Data</h2>
+<ul>
 <li>State-level Gini coefficients by age group</li>
 <li>State-level Gini coefficients by race and ethnicity</li>
 <li>State-level Gini coefficients by education level</li>
 <li>State-level Gini coefficients by income group</li>
 <li>State-level Telehealth Usage</li>
+</ul>
 
 <h2>Methdologies</h2>
 <ul>
