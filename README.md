@@ -38,8 +38,6 @@
   <code>
     G(t) = 1 − ∑<sub>i=1</sub><sup>n</sup>[Y<sub>i</sub>(t) + Y<sub>i−1</sub>(t)] [X<sub>i</sub>(t) − X<sub>i−1</sub>(t)]
   </code>
-
-
   where <code>X<sub>i</sub>(t)</code> represents the cumulative proportion of the population at time <em>t</em>
   after including group <em>i</em>, and <code>Y<sub>i</sub>(t)</code> represents the cumulative proportion of patient
   visits in the electronic medical record (EMR) dataset at time <em>t</em> after including group <em>i</em>.
