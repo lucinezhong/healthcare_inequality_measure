@@ -1,12 +1,5 @@
 <h1>Examining Inequality in Healthcare Utilization During Pandemic Disruptions in the United States</h1>
 
-<h2>Overview</h2>
-<p>
-  This repository contains the data processing workflows, analytical code, and supplementary materials for the study:
-</p>
-<p>
-  <strong>Examining Inequality in Healthcare Utilization During Pandemic Disruptions in the United States</strong>
-</p>
 
 <h2>Abstract</h2>
 <p>
