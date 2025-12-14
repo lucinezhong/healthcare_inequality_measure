@@ -32,9 +32,24 @@
 <h2>Methdologies</h2>
 <ul>
   <li>
+    
     <strong>Gini Coefficient</strong>:
     Measures overall inequality in healthcare utilization across demographic groups within a given month.
     Values range from 0 (perfect equality) to 1 (maximum inequality); higher values indicate greater disparity.
+    <p>
+  <code>
+    G(t) = 1 − ∑<sub>i=1</sub><sup>n</sup>
+    [Y<sub>i</sub>(t) + Y<sub>i−1</sub>(t)]
+    [X<sub>i</sub>(t) − X<sub>i−1</sub>(t)]
+  </code>
+</p>
+
+<p>
+  where <code>X<sub>i</sub>(t)</code> represents the cumulative proportion of the population at time <em>t</em>
+  after including group <em>i</em>, and <code>Y<sub>i</sub>(t)</code> represents the cumulative proportion of patient
+  visits in the electronic medical record (EMR) dataset at time <em>t</em> after including group <em>i</em>.
+  Groups are ordered in ascending order of their share of patient visits to ensure proper construction of the
+  Lorenz curve. Here, <code>n</code> denotes the total number of demographic groups.
   </li>
 
   <li>
